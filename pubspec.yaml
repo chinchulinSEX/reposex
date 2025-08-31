@@ -1,0 +1,31 @@
+name: microbus_ske
+description: Demo MicroBus con 2 pantallas y bottom sheets
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagenes/mapaSTC1.jpeg
+    - assets/imagenes/mapaSTC2.jpeg
+    - assets/imagenes/micro.png
+    - assets/svg/menu.svg
+    - assets/svg/persona.svg
+    - assets/svg/ubi.svg
+    - assets/svg/bancoBNB.svg
+    - assets/svg/bancoECO.svg
+    - assets/svg/bien.svg
+    - assets/svg/logoBus.svg
